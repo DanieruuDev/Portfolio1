@@ -35,14 +35,14 @@ function Home() {
             <div className="bg-white p-1 rounded-full h-8 w-8  transform -translate-x-5 ">
               <img
                 className="h-7 w-7 object-center animate-rotate-img anim-8s"
-                src="./src/assets/next-js.png"
+                src="/next-js.png"
                 alt=""
               />
             </div>
             <div className="bg-white overflow-hidden rounded-full custom-shadow h-8 w-8 transform translate-x-5 ">
               <img
                 className="h-7 w-7 object-center animate-rotate-img anim-8s"
-                src="./src/assets/tailwind.png"
+                src="/tailwind.png"
                 alt=""
               />
             </div>
@@ -51,14 +51,14 @@ function Home() {
             <div className="bg-white p-1 rounded-full custom-shadow h-8 w-8  transform -translate-x-5 ">
               <img
                 className="h-7 w-7 object-center animate-rotate-img anim-8s"
-                src="./src/assets/next-js.png"
+                src="/next-js.png"
                 alt=""
               />
             </div>
             <div className="bg-white overflow-hidden rounded-full custom-shadow h-8 w-8 transform translate-x-5 ">
               <img
                 className="h-7 w-7 object-center animate-rotate-img anim-8s"
-                src="./src/assets/tailwind.png"
+                src="/tailwind.png"
                 alt=""
               />
             </div>

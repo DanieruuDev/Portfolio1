@@ -4,7 +4,7 @@ function Project() {
   const projects = [
     {
       name: "Category",
-      img: "/src/assets/category.png",
+      img: "/category.png",
       description:
         "A website implemented using vanilla languages. It has nav bar that categorized different things and when you click it'll show the said category in the screen",
       language: "HTML CSS JS",
@@ -12,7 +12,7 @@ function Project() {
     },
     {
       name: "Java Script Basics",
-      img: "/src/assets/jsbasic.png",
+      img: "/jsbasic.png",
       description:
         "Show case the basic or fundamentals of java script. This show the for loop which one of the loop that JS has. It also showcase some input for the user",
       language: "HTML CSS JS",
@@ -20,7 +20,7 @@ function Project() {
     },
     {
       name: "Amazon Clone",
-      img: "/src/assets/amazon-clone.png",
+      img: "/amazon-clone.png",
       description:
         "Using vanilla JS, CSS, and HTML i created one of my first big project. It has CRUD operation with simple data save using local storage. You can search, add to car, buy, track order, and deleter order",
       language: "HTML CSS JS",
@@ -29,7 +29,7 @@ function Project() {
     },
     {
       name: "Architech",
-      img: "/src/assets/architechito.png",
+      img: "/architechito.png",
       description:
         "A website task by our CSA subject. We created a website that store our module and handout for our subject. A learning web site dedicated to the CSA subject only. It also has it's own database for it's user to login and register",
       language: "NEXTJS REACTJS TAILWIND SHADCN MONGODB",

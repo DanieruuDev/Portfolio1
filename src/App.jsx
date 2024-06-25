@@ -12,16 +12,16 @@ function App() {
       <div className="bg-[#161c29] overflow-x-hidden text-white transition-all duration-300 font-[monospace]">
         <Navigation />
         <div className="global-container space-y-20">
-          <div id="home">
+          <div id="home" className="mt-[-90px] pt-[90px]">
             <Home />
           </div>
-          <div id="about">
+          <div id="about" className="mt-[-90px] pt-[90px]">
             <About />
           </div>
-          <div id="projects">
+          <div id="projects" className="mt-[-90px] pt-[90px]">
             <Project />
           </div>
-          <div id="contact">
+          <div id="contact" className="mt-[-90px] pt-[90px]">
             <Contact />
           </div>
         </div>

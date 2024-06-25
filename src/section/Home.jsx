@@ -19,9 +19,13 @@ function Home() {
           proficient in various programming languages and technologies.
         </p>
         <div className="mt-5">
-          <button className="border-2 border-[#eb4646] py-2 px-4 rounded-full bg-transparent font-bold text-[18px] text-[#eb4646] hover:bg-[#eb4646] hover:text-white">
-            DOWNLOAD CV
-          </button>
+          <a
+            className="border-2 border-[#eb4646] py-2 px-4 rounded-full bg-transparent font-bold text-[18px] text-[#eb4646] hover:bg-[#eb4646] hover:text-white cursor-pointer"
+            href="/resume/Resume.pdf"
+            download
+          >
+            DOWNLOAD RESUME
+          </a>
         </div>
       </div>
       <div className="w-full max-md:mt-[50px] flex justify-end max-md:h-[50vh]">

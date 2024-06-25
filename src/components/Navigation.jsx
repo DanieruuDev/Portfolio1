@@ -10,16 +10,10 @@ function Navigation() {
   return (
     <div className="fixed top-0 left-0 right-0 z-10 bg-[#161c29]">
       <div className="flex global-container justify-between items-center font-[monospace] text-[18px] h-[90px]">
-        <div className="font-bold cursor-pointer">
+        <a className="font-bold cursor-pointer" href="#home">
           Daniel<span className="text-[#eb4646]">.</span>
-        </div>
+        </a>
         <div className="hidden md:flex gap-4">
-          <a
-            href="#home"
-            className="hover:text-[#eb4646] cursor-pointer transition-all duration-200"
-          >
-            Home
-          </a>
           <a
             href="#about"
             className="hover:text-[#eb4646] cursor-pointer transition-all duration-200"

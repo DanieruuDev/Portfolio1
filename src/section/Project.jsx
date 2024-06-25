@@ -3,22 +3,6 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 function Project() {
   const projects = [
     {
-      name: "Category",
-      img: "/category.png",
-      description:
-        "A website implemented using vanilla languages. It has nav bar that categorized different things and when you click it'll show the said category in the screen",
-      language: "HTML CSS JS",
-      link: "https://github.com/DanieruuDev/Category",
-    },
-    {
-      name: "Java Script Basics",
-      img: "/jsbasic.png",
-      description:
-        "Show case the basic or fundamentals of java script. This show the for loop which one of the loop that JS has. It also showcase some input for the user",
-      language: "HTML CSS JS",
-      link: "https://github.com/DanieruuDev/JS-Basic",
-    },
-    {
       name: "Amazon Clone",
       img: "/amazon-clone.png",
       description:
@@ -29,12 +13,28 @@ function Project() {
     },
     {
       name: "Architech",
-      img: "/architechito.png",
+      img: "/Architech.png",
       description:
         "A website task by our CSA subject. We created a website that store our module and handout for our subject. A learning web site dedicated to the CSA subject only. It also has it's own database for it's user to login and register",
       language: "NEXTJS REACTJS TAILWIND SHADCN MONGODB",
       link: "https://github.com/elwynynion/architech",
       live: "https://architech-bscs401.vercel.app/",
+    },
+    {
+      name: "Weather App API",
+      img: "/weather.png",
+      description:
+        "A simple weather applciation made with weather.api and next js. That allwos to see the weather in each city you input",
+      language: "NEXTJS TAILWIND WEATHERAPI",
+      link: "https://github.com/DanieruuDev/WeatherAPI",
+    },
+    {
+      name: "Java Script Basics",
+      img: "/jsbasic.png",
+      description:
+        "Show case the basic or fundamentals of java script. This show the for loop which one of the loop that JS has. It also showcase some input for the user",
+      language: "HTML CSS JS",
+      link: "https://github.com/DanieruuDev/JS-Basic",
     },
   ];
   return (
@@ -43,8 +43,12 @@ function Project() {
       <div className="space-y-10">
         {projects.map((project) => (
           <div className="flex flex-wrap items-center max-lg:flex-col max-lg:space-y-4">
-            <div className="w-full max-w-[600px] flex flex-1 mr-[15px] box-border items-center justify-center">
-              <img src={project.img} alt="" className=" rounded-xl shadow-lg" />
+            <div className="max-w-[600px] w-full flex flex-1 mr-[15px] box-border items-center justify-center">
+              <img
+                src={project.img}
+                alt=""
+                className="rounded-xl shadow-lg w-[100%] object-cover max-h-[300px] object-top"
+              />
             </div>
             <div className=" flex-1 max-w-[400px] ml-auto space-y-1 max-lg:ml-0 max-lg:text-center">
               <div className="flex gap-2 text-[30px] max-lg:justify-center">

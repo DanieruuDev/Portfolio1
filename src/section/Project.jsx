@@ -28,14 +28,6 @@ function Project() {
       language: "NEXTJS TAILWIND WEATHERAPI",
       link: "https://github.com/DanieruuDev/WeatherAPI",
     },
-    {
-      name: "Java Script Basics",
-      img: "/jsbasic.png",
-      description:
-        "Show case the basic or fundamentals of java script. This show the for loop which one of the loop that JS has. It also showcase some input for the user",
-      language: "HTML CSS JS",
-      link: "https://github.com/DanieruuDev/JS-Basic",
-    },
   ];
   return (
     <div>

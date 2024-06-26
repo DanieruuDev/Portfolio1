@@ -27,6 +27,7 @@ function Project() {
         "A simple weather applciation made with weather.api and next js. That allwos to see the weather in each city you input",
       language: "NEXTJS TAILWIND WEATHERAPI",
       link: "https://github.com/DanieruuDev/WeatherAPI",
+      live: "https://dan-weather-api.netlify.app/",
     },
   ];
   return (

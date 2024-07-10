@@ -3,6 +3,16 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 function Project() {
   const projects = [
     {
+      name: "Tasky",
+      img: "/tasky.png",
+      description:
+        "A full-stack website using the MERN stack along with Next.js and shadcn. This task tracker allows users to manage their tasks, with simple CRUD operations handled by Express.js for the API and server-side logic.",
+      language:
+        "MERN (MongoDB, Express, React, Node.js), Next.js, Tailwind CSS, shadcn, TypeScript",
+      link: "https://github.com/DanieruuDev/TaskTracker",
+      live: "https://task-tracker-bice-chi.vercel.app/",
+    },
+    {
       name: "Amazon Clone",
       img: "/amazon-clone.png",
       description:
